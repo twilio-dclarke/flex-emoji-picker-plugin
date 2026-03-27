@@ -1,0 +1,27 @@
+{
+  "request_id": "RQfcb0c4c793e6dd4fa5e7ba4fbf9467c2",
+  "api_compatibility": [],
+  "version_compatibility": [
+    {
+      "file": "/flex-emoji-picker-plugin/package.json",
+      "warnings": []
+    }
+  ],
+  "dom_manipulation": [
+    {
+      "file": "/flex-emoji-picker-plugin/src/EmojiPickerPlugin.js",
+      "messages": [
+        "WARNING: Usage of `document.createElement(\"div\")` is discouraged.",
+        "WARNING: Usage of `document.querySelector(\"#emoji-picker-container\")` is discouraged.",
+        "WARNING: Usage of `document.querySelectorAll('[role=\"toolbar\"]')` is discouraged."
+      ]
+    },
+    {
+      "file": "/flex-emoji-picker-plugin/src/components/EmojiPickerButton.js",
+      "messages": [
+        "WARNING: Usage of `document.querySelector('[data-testid=\"email-body-frame\"]')` is discouraged."
+      ]
+    }
+  ],
+  "errors": []
+}

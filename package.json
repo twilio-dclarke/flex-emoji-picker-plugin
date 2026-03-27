@@ -1,6 +1,6 @@
 {
   "name": "flex-emoji-picker-plugin",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "private": true,
   "description": "Twilio Flex plugin that adds an emoji picker to the Email Editor",
   "scripts": {

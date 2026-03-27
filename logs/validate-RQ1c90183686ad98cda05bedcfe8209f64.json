@@ -1,0 +1,19 @@
+{
+  "request_id": "RQ1c90183686ad98cda05bedcfe8209f64",
+  "api_compatibility": [],
+  "version_compatibility": [
+    {
+      "file": "/flex-emoji-picker-plugin/package.json",
+      "warnings": []
+    }
+  ],
+  "dom_manipulation": [
+    {
+      "file": "/flex-emoji-picker-plugin/src/components/EmojiPickerButton.js",
+      "messages": [
+        "WARNING: Usage of `document.querySelector('[data-testid=\"email-body-frame\"]')` is discouraged."
+      ]
+    }
+  ],
+  "errors": []
+}
