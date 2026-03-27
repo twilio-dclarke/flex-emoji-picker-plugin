@@ -3,7 +3,7 @@
 
 var appConfig = {
   // Your Twilio Flex Account SID
-  accountSid: 'AC43c8a62ca823f799de14843d21f9c1fa', 
+  accountSid: 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 
   pluginService: {
     enabled: true,
     url: '/plugins',
