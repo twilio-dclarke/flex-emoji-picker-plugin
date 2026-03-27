@@ -32,31 +32,7 @@ This approach means:
 npm install
 npm install emoji-picker-react@4
 ```
-
-> **Do not use `emoji-mart` v5 or `@emoji-mart/react`.** They use optional chaining (`?.`) which Webpack 4 (used by flex-plugin-scripts) cannot parse. `emoji-picker-react@4` ships pre-transpiled and works correctly.
-
-> **Do not use dynamic `import()`.** Webpack code splitting creates chunks that the Flex dev server cannot serve. Use static imports only.
-
 ---
-
-## Required files
-
-Two files must exist before the plugin will load — flex-plugin-scripts v6 requires both and fails silently without them.
-
-**`plugin.json`** at the project root:
-```json
-{"name": "flex-emoji-picker-plugin", "version": "1.0.0"}
-```
-
-**`src/index.js`**:
-```javascript
-import EmojiPickerPlugin from "./EmojiPickerPlugin";
-import { loadPlugin } from "@twilio/flex-plugin";
-loadPlugin(EmojiPickerPlugin);
-```
-
----
-
 ## Development
 
 ```bash
