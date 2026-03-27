@@ -1,0 +1,24 @@
+{
+  "name": "flex-emoji-picker-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Twilio Flex plugin that adds an emoji picker to the Email Editor",
+  "scripts": {
+    "start": "twilio flex:plugins:start",
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@twilio-paste/core": "^15.3.1",
+    "@twilio-paste/icons": "^9.2.0",
+    "@twilio/flex-plugin": "7.1.2",
+    "emoji-picker-react": "^4.18.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-plugin-scripts": "7.1.2",
+    "@twilio/flex-ui": "2.14.0",
+    "react-test-renderer": "17.0.2"
+  }
+}
