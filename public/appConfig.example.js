@@ -2,8 +2,7 @@
 // This file is auto-loaded by @twilio/flex-plugin-scripts
 
 var appConfig = {
-  // Your Twilio Flex Account SID
-  //add acocunt SID
+  //add accound identifier here
   pluginService: {
     enabled: true,
     url: '/plugins',
